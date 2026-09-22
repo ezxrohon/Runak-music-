@@ -1,0 +1,9 @@
+pyrogram
+tgcrypto
+py-tgcalls>=2.2.0
+py-yt-search
+aiohttp
+requests
+Pillow
+firebase-admin
+python-dotenv
