@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: runak-music-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      # Telegram API (my.telegram.org)
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+
+      # BotFather token for the bot account
+      - key: BOT_TOKEN
+        sync: false
+
+      # Pyrogram string session for the assistant account
+      - key: SESSION_STRING
+        sync: false
+
+      # Your numeric Telegram user id
+      - key: OWNER_ID
+        sync: false
+
+      # Max track length in minutes
+      - key: DURATION_LIMIT_MIN
+        value: "60"
+
+      # Meow API — get a key from @MeowApiRobot on Telegram
+      - key: MEOW_API_URL
+        value: https://music.yukiapi.site
+      - key: MEOW_API_KEY
+        sync: false
+
+      # Firebase service-account key, as one line
+      # (Firebase Console > Project settings > Service accounts > Generate new private key)
+      - key: FIREBASE_CREDENTIALS_JSON
+        sync: false
