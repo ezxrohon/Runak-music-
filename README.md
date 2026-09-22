@@ -1,13 +1,6 @@
 <div align="center">
 
-<img src="https://files.catbox.moe/f4nnyn.svg" width="100%" height="300">
-
-<br><br>
-
-[![License](https://img.shields.io/badge/License-MIT-A960FF?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0D1117)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10+-2CA5E0?style=for-the-badge&logo=python&logoColor=white&labelColor=0D1117)](https://www.python.org)
-[![Pyrogram](https://img.shields.io/badge/Pyrogram-Client-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117)](https://docs.pyrogram.org)
-
+<img src="
 </div>
 
 <br>
